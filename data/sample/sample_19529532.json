@@ -1,0 +1,241 @@
+{
+  "safetyreportversion": "2",
+  "safetyreportid": "19529532",
+  "primarysourcecountry": "DE",
+  "occurcountry": "DE",
+  "transmissiondateformat": "102",
+  "transmissiondate": "20240410",
+  "reporttype": "1",
+  "serious": "1",
+  "seriousnessdeath": "1",
+  "seriousnesslifethreatening": "2",
+  "seriousnesshospitalization": "2",
+  "seriousnessdisabling": "2",
+  "seriousnesscongenitalanomali": "2",
+  "seriousnessother": "1",
+  "receivedateformat": "102",
+  "receivedate": "20210713",
+  "receiptdateformat": "102",
+  "receiptdate": "20240123",
+  "fulfillexpeditecriteria": "1",
+  "companynumb": "DE-PFIZER INC-2021817569",
+  "duplicate": "1",
+  "reportduplicate": [
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "DE-PFIZER INC-2021805342"
+    },
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "JP-PFIZER INC-PV202400005237"
+    }
+  ],
+  "primarysource": {
+    "reportercountry": "DE",
+    "qualification": "1",
+    "literaturereference": "Ozdirik, B.. Atezolizumab and bevacizumab-induced encephalitis in advanced hepatocellular carcinoma: Case report and literature review.. Medicine. 2021;100 (24):e26377"
+  },
+  "sender": {
+    "sendertype": "2",
+    "senderorganization": "FDA-Public Use"
+  },
+  "receiver": {
+    "receivertype": "6",
+    "receiverorganization": "FDA"
+  },
+  "patient": {
+    "patientonsetage": "70",
+    "patientonsetageunit": "801",
+    "patientsex": "2",
+    "reaction": [
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Encephalitis",
+        "reactionoutcome": "5"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Neurological symptom",
+        "reactionoutcome": "5"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Multiple organ dysfunction syndrome",
+        "reactionoutcome": "5"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Off label use",
+        "reactionoutcome": "6"
+      }
+    ],
+    "drug": [
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "BEVACIZUMAB",
+        "drugauthorizationnumb": "761099",
+        "drugstructuredosagenumb": "15",
+        "drugstructuredosageunit": "007",
+        "drugdosagetext": "15 MG/KG OVER 90 MINUTES",
+        "drugindication": "Hepatocellular carcinoma",
+        "actiondrug": "6",
+        "drugadditional": "4",
+        "activesubstance": {
+          "activesubstancename": "BEVACIZUMAB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA761198",
+            "BLA125085"
+          ],
+          "brand_name": [
+            "AVZIVI TNJN",
+            "AVASTIN"
+          ],
+          "generic_name": [
+            "BEVACIZUMAB"
+          ],
+          "manufacturer_name": [
+            "Bio-Thera Solutions, Ltd.",
+            "Genentech, Inc."
+          ],
+          "product_ndc": [
+            "82143-001",
+            "82143-002",
+            "50242-060",
+            "50242-061"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "BEVACIZUMAB-TNJN",
+            "BEVACIZUMAB"
+          ],
+          "rxcui": [
+            "2700735",
+            "2700742",
+            "2700744",
+            "2700745",
+            "1657066",
+            "1657068",
+            "1657073",
+            "1657074"
+          ],
+          "spl_id": [
+            "24041767-230c-9a58-e063-6394a90ad576",
+            "8debebf6-af94-4ba7-8d67-c801f4ea27eb"
+          ],
+          "spl_set_id": [
+            "a3976cf9-9edb-4ca2-9375-9bcd2e32f5b4",
+            "939b5d1f-9fb2-4499-80ef-0607aa6b114e"
+          ],
+          "package_ndc": [
+            "82143-001-01",
+            "82143-002-01",
+            "50242-060-01",
+            "50242-060-10",
+            "50242-061-01",
+            "50242-061-10"
+          ],
+          "unii": [
+            "2S9ZZM9Q9V"
+          ],
+          "nui": [
+            "N0000193543",
+            "N0000178291",
+            "N0000193542"
+          ],
+          "pharm_class_epc": [
+            "Vascular Endothelial Growth Factor Inhibitor [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Vascular Endothelial Growth Factor-directed Antibody Interactions [MoA]",
+            "Vascular Endothelial Growth Factor Inhibitors [MoA]"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "ATEZOLIZUMAB",
+        "drugstructuredosagenumb": "1200",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "1200 MG, OVER 2 HOURS",
+        "drugindication": "Hepatocellular carcinoma",
+        "actiondrug": "6",
+        "drugadditional": "4",
+        "activesubstance": {
+          "activesubstancename": "ATEZOLIZUMAB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA761034"
+          ],
+          "brand_name": [
+            "TECENTRIQ"
+          ],
+          "generic_name": [
+            "ATEZOLIZUMAB"
+          ],
+          "manufacturer_name": [
+            "Genentech, Inc."
+          ],
+          "product_ndc": [
+            "50242-917",
+            "50242-918"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "ATEZOLIZUMAB"
+          ],
+          "rxcui": [
+            "1792780",
+            "1792785",
+            "2119695",
+            "2119696"
+          ],
+          "spl_id": [
+            "f4fe4626-4d6c-4c50-9d52-51aae17f27d6"
+          ],
+          "spl_set_id": [
+            "6fa682c9-a312-4932-9831-f286908660ee"
+          ],
+          "package_ndc": [
+            "50242-917-01",
+            "50242-917-86",
+            "50242-918-01"
+          ],
+          "nui": [
+            "N0000191260",
+            "N0000191259",
+            "M0556300",
+            "M0001357",
+            "M0001352"
+          ],
+          "pharm_class_epc": [
+            "Programmed Death Receptor-1 Blocking Antibody [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Programmed Death Receptor-1-directed Antibody Interactions [MoA]"
+          ],
+          "pharm_class_cs": [
+            "Antibodies, Monoclonal, Humanized [CS]",
+            "Antibodies, Monoclonal [CS]",
+            "Antibodies [CS]"
+          ],
+          "unii": [
+            "52CMI0WC3Y"
+          ]
+        }
+      }
+    ]
+  }
+}

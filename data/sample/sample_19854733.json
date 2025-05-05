@@ -1,0 +1,2219 @@
+{
+  "safetyreportversion": "15",
+  "safetyreportid": "19854733",
+  "primarysourcecountry": "CA",
+  "occurcountry": "CA",
+  "transmissiondateformat": "102",
+  "transmissiondate": "20240409",
+  "reporttype": "1",
+  "serious": "1",
+  "seriousnessdeath": "2",
+  "seriousnesslifethreatening": "2",
+  "seriousnesshospitalization": "1",
+  "seriousnessdisabling": "2",
+  "seriousnesscongenitalanomali": "2",
+  "seriousnessother": "1",
+  "receivedateformat": "102",
+  "receivedate": "20210920",
+  "receiptdateformat": "102",
+  "receiptdate": "20240112",
+  "fulfillexpeditecriteria": "1",
+  "companynumb": "CA-CELLTRION INC.-2021CA001620",
+  "duplicate": "1",
+  "reportduplicate": [
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "CA-PFIZER INC-2021085662"
+    },
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "CA-PFIZER INC-2021085662"
+    },
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "CA-PFIZER INC-2021085662"
+    },
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "CA-PFIZER INC-2021085662"
+    },
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "CA-PFIZER INC-2021085662"
+    },
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "CA-PFIZER INC-2021085662"
+    },
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "CA-PFIZER INC-2021085662"
+    },
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "CA-PFIZER INC-2021085662"
+    },
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "CA-PFIZER INC-2021085662"
+    },
+    {
+      "duplicatesource": "PFIZER INC",
+      "duplicatenumb": "CA-PFIZER INC-2021085662"
+    }
+  ],
+  "primarysource": {
+    "reportercountry": "CA",
+    "qualification": "3"
+  },
+  "sender": {
+    "sendertype": "2",
+    "senderorganization": "FDA-Public Use"
+  },
+  "receiver": {
+    "receivertype": "6",
+    "receiverorganization": "FDA"
+  },
+  "patient": {
+    "reaction": [
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Intestinal obstruction",
+        "reactionoutcome": "3"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Blood iron decreased",
+        "reactionoutcome": "6"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Inguinal hernia",
+        "reactionoutcome": "1"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Back pain",
+        "reactionoutcome": "2"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Condition aggravated",
+        "reactionoutcome": "1"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Arthralgia",
+        "reactionoutcome": "1"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Inflammation",
+        "reactionoutcome": "3"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Diverticulitis",
+        "reactionoutcome": "1"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Abscess",
+        "reactionoutcome": "1"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Abdominal pain",
+        "reactionoutcome": "3"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Therapeutic response shortened",
+        "reactionoutcome": "6"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Mass",
+        "reactionoutcome": "6"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Faecal calprotectin increased",
+        "reactionoutcome": "3"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "COVID-19",
+        "reactionoutcome": "1"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Urinary tract infection",
+        "reactionoutcome": "1"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Off label use",
+        "reactionoutcome": "6"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Off label use",
+        "reactionoutcome": "6"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Intentional product use issue",
+        "reactionoutcome": "6"
+      },
+      {
+        "reactionmeddraversionpt": "26.1",
+        "reactionmeddrapt": "Mucous stools",
+        "reactionoutcome": "3"
+      }
+    ],
+    "drug": [
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "300",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "300 MG, AT 0, 2, 6 WEEKS, THEN EVERY 8 WEEKS (WEEK 0 DOSE)",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugindication": "Crohn^s disease",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20201020",
+        "drugenddateformat": "102",
+        "drugenddate": "20201020",
+        "drugtreatmentduration": "1",
+        "drugtreatmentdurationunit": "804",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "300",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "300 MG, AT 0, 2, 6 WEEKS, THEN EVERY 8 WEEKS (WEEK 2 DOSE)",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20201104",
+        "drugenddateformat": "102",
+        "drugenddate": "20201104",
+        "drugtreatmentduration": "1",
+        "drugtreatmentdurationunit": "804",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "300",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "300 MG, EVERY 4 WEEK (WEEK 2 DOSE)",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20201104",
+        "drugenddateformat": "102",
+        "drugenddate": "20201104",
+        "drugtreatmentduration": "1",
+        "drugtreatmentdurationunit": "804",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugbatchnumb": "DY0029",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "300",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "300 MG, AT 0, 2, 6 WEEKS, THEN EVERY 8 WEEKS (WEEK 6 DOSE)",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20201203",
+        "drugenddateformat": "102",
+        "drugenddate": "20201203",
+        "drugtreatmentduration": "1",
+        "drugtreatmentdurationunit": "804",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugbatchnumb": "EG4599",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "300",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "300 MG EVERY 8 WEEKS",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20210127",
+        "drugenddateformat": "102",
+        "drugenddate": "20210127",
+        "drugtreatmentduration": "115",
+        "drugtreatmentdurationunit": "806",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugbatchnumb": "EG4601",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "300",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "300 MG EVERY 8 WEEKS",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20210326",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "300",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "300 MG EVERY 8 WEEKS",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20210520",
+        "drugenddateformat": "102",
+        "drugenddate": "20210520",
+        "drugtreatmentduration": "65",
+        "drugtreatmentdurationunit": "806",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugbatchnumb": "ER2661",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "300",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "300 MG EVERY 8 WEEKS",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20210715",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "300",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "300 MG EVERY 8 WEEKS",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20210909",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "300",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "300 MG EVERY 8 WEEKS",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20220106",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugbatchnumb": "FH4212",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "10",
+        "drugstructuredosageunit": "007",
+        "drugdosagetext": "10 MG/KG, EVERY 8 WEEK  ROUNDED UP TO UPPER VIAL",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20220303",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugbatchnumb": "FF1286",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "10",
+        "drugstructuredosageunit": "007",
+        "drugdosagetext": "10 MG/KG, EVERY 8 WEEK ROUNDED UP TO UPPER VIAL",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20220428",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugbatchnumb": "GF416324",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "10",
+        "drugstructuredosageunit": "007",
+        "drugdosagetext": "10 MG/KG, EVERY 8 WEEK ROUNDED UP TO UPPER VIAL",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20220622",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "10",
+        "drugstructuredosageunit": "007",
+        "drugdosagetext": "10 MG/KG, EVERY 8 WEEK ROUNDED UP TO UPPER VIAL",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20220818",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugbatchnumb": "GW3134",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "500",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "500 MG, Q8 WEEKS",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20230720",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugbatchnumb": "HC7043",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "10",
+        "drugstructuredosageunit": "007",
+        "drugdosagetext": "10 MG/KG, EVERY 8 WEEK ROUNDED UP TO UPPER VIAL",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20230914",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugbatchnumb": "HE7706",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "10",
+        "drugstructuredosageunit": "007",
+        "drugdosagetext": "10 MG/KG, EVERY 8 WEEK ROUNDED UP TO UPPER VIAL (500 MG)",
+        "drugdosageform": "Powder for injection",
+        "drugadministrationroute": "042",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20231109",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugbatchnumb": "HG4838",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "500",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "500 MG, REINTRODUTION WEEK 0",
+        "drugdosageform": "Powder for injection",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20231211",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "1",
+        "medicinalproduct": "INFLECTRA",
+        "drugauthorizationnumb": "125544",
+        "drugstructuredosagenumb": "500",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "500 MG, REINTRODUTION (WEEK 2 INDUCTION DOSE)",
+        "drugdosageform": "Powder for injection",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20231228",
+        "actiondrug": "4",
+        "activesubstance": {
+          "activesubstancename": "INFLIXIMAB-DYYB"
+        },
+        "openfda": {
+          "application_number": [
+            "BLA125544"
+          ],
+          "brand_name": [
+            "INFLECTRA"
+          ],
+          "generic_name": [
+            "INFLIXIMAB-DYYB"
+          ],
+          "manufacturer_name": [
+            "Pfizer Laboratories Div Pfizer Inc"
+          ],
+          "product_ndc": [
+            "0069-0809"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "INFLIXIMAB"
+          ],
+          "rxcui": [
+            "1790541",
+            "1790546"
+          ],
+          "spl_id": [
+            "a5dd5a76-f04d-4b09-9ece-ef410023ed2d"
+          ],
+          "spl_set_id": [
+            "37eaca10-d812-48bc-8b8e-b836bfa9968f"
+          ],
+          "package_ndc": [
+            "0069-0809-01"
+          ],
+          "nui": [
+            "N0000175610",
+            "N0000175451"
+          ],
+          "pharm_class_epc": [
+            "Tumor Necrosis Factor Blocker [EPC]"
+          ],
+          "pharm_class_moa": [
+            "Tumor Necrosis Factor Receptor Blocking Activity [MoA]"
+          ],
+          "unii": [
+            "B72HH48FLU"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "2",
+        "medicinalproduct": "CALCIUM",
+        "drugstructuredosagenumb": "500",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "500 MG, 1X/DAY",
+        "drugindication": "Menopause",
+        "activesubstance": {
+          "activesubstancename": "CALCIUM"
+        },
+        "openfda": {
+          "brand_name": [
+            "7030 CALCIUM PREMIUM",
+            "AG-X",
+            "7030 CALCIUM GOLD"
+          ],
+          "generic_name": [
+            "CALCIUM"
+          ],
+          "manufacturer_name": [
+            "Apexel Co., Ltd",
+            "APEXEL CO., LTD."
+          ],
+          "product_ndc": [
+            "55259-1112",
+            "55259-0007",
+            "55259-0001"
+          ],
+          "product_type": [
+            "HUMAN OTC DRUG"
+          ],
+          "route": [
+            "ORAL"
+          ],
+          "substance_name": [
+            "CALCIUM"
+          ],
+          "spl_id": [
+            "0fa8135f-89c9-41a2-e063-6294a90a403d",
+            "11cc283a-fe2c-f101-e063-6294a90ad2d4",
+            "11cc310a-d82e-be44-e063-6394a90a227c"
+          ],
+          "spl_set_id": [
+            "bdc7c833-daf7-48f9-e053-2995a90ad88e",
+            "bdee5e24-645b-7fa0-e053-2995a90a7d25",
+            "bdc7c088-83e3-20ce-e053-2995a90abd2f"
+          ],
+          "package_ndc": [
+            "55259-1112-1",
+            "55259-0007-1",
+            "55259-0001-1"
+          ],
+          "nui": [
+            "M0003153",
+            "N0000175901"
+          ],
+          "pharm_class_cs": [
+            "Calcium [CS]"
+          ],
+          "pharm_class_epc": [
+            "Calcium [EPC]"
+          ],
+          "unii": [
+            "SY7Q814VUP"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "2",
+        "medicinalproduct": "FERROUS SULFATE",
+        "drugdosagetext": "3000 3X/WEEK",
+        "drugindication": "Anaemia",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20210519",
+        "activesubstance": {
+          "activesubstancename": "FERROUS SULFATE"
+        },
+        "openfda": {
+          "brand_name": [
+            "FERROUS SULFATE",
+            "FERRUM SULPHURICUM"
+          ],
+          "generic_name": [
+            "FERROUS SULFATE"
+          ],
+          "manufacturer_name": [
+            "Richmond Pharmaceuticals, Inc.",
+            "Boiron",
+            "Richmond Pharmaceuticals Inc."
+          ],
+          "product_ndc": [
+            "54738-963",
+            "0220-2111"
+          ],
+          "product_type": [
+            "HUMAN OTC DRUG"
+          ],
+          "route": [
+            "ORAL"
+          ],
+          "substance_name": [
+            "FERROUS SULFATE"
+          ],
+          "rxcui": [
+            "310325"
+          ],
+          "spl_id": [
+            "2a327c66-d561-6a9b-e063-6294a90a5d0a",
+            "0a0cbae3-25d2-6d47-e063-6294a90a0431",
+            "2a327df7-e75d-8130-e063-6294a90a6e83"
+          ],
+          "spl_set_id": [
+            "58dd4f30-980b-44bc-9f8e-8d4626854b91",
+            "7a4087d8-d054-bbdc-e053-2991aa0ae8cf",
+            "5514d582-19b5-4f1e-b794-f790afb8211c"
+          ],
+          "package_ndc": [
+            "54738-963-01",
+            "54738-963-03",
+            "0220-2111-41",
+            "54738-963-13"
+          ],
+          "unii": [
+            "39R4TAN1VT"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "2",
+        "medicinalproduct": "PURINETHOL",
+        "drugstructuredosagenumb": "25",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "25 MG, 1X/DAY",
+        "drugindication": "Crohn^s disease",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20190924",
+        "activesubstance": {
+          "activesubstancename": "MERCAPTOPURINE"
+        }
+      },
+      {
+        "drugcharacterization": "2",
+        "medicinalproduct": "PURINETHOL",
+        "drugstructuredosagenumb": "75",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "75 MG",
+        "drugindication": "Anaemia",
+        "activesubstance": {
+          "activesubstancename": "MERCAPTOPURINE"
+        }
+      },
+      {
+        "drugcharacterization": "2",
+        "medicinalproduct": "PURINETHOL",
+        "drugstructuredosagenumb": "25",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "25 MG",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20210126",
+        "activesubstance": {
+          "activesubstancename": "MERCAPTOPURINE"
+        }
+      },
+      {
+        "drugcharacterization": "2",
+        "medicinalproduct": "PURINETHOL",
+        "drugstructuredosagenumb": "25",
+        "drugstructuredosageunit": "003",
+        "drugdosagetext": "25 MG",
+        "drugadministrationroute": "065",
+        "activesubstance": {
+          "activesubstancename": "MERCAPTOPURINE"
+        }
+      },
+      {
+        "drugcharacterization": "2",
+        "medicinalproduct": "CYANOCOBALAMIN",
+        "drugdosagetext": "1200, 1X/DAY",
+        "drugindication": "Vitamin B12 deficiency",
+        "drugstartdateformat": "602",
+        "drugstartdate": "2019",
+        "activesubstance": {
+          "activesubstancename": "CYANOCOBALAMIN"
+        },
+        "openfda": {
+          "application_number": [
+            "ANDA206503",
+            "ANDA214655",
+            "ANDA213874",
+            "ANDA080737",
+            "ANDA209255",
+            "ANDA217839",
+            "ANDA214390",
+            "ANDA212458",
+            "ANDA080515",
+            "ANDA214316",
+            "NDA021642",
+            "505G(a)(3)",
+            "ANDA209429",
+            "ANDA210629",
+            "ANDA215417",
+            "ANDA080557",
+            "ANDA215107"
+          ],
+          "brand_name": [
+            "CYANOCOBALAMIN",
+            "NASCOBAL",
+            "YIFUJIA PLANT ANTIBACTERIAL GEL"
+          ],
+          "generic_name": [
+            "CYANOCOBALAMIN"
+          ],
+          "manufacturer_name": [
+            "Somerset Therapeutics, LLC",
+            "Zydus Pharmaceuticals USA Inc.",
+            "AuroMedics Pharma LLC",
+            "BluePoint Laboratories",
+            "Vitruvias Therapeutics",
+            "Meitheal Pharmaceuticals Inc.",
+            "Padagis Israel Pharmaceuticals Ltd",
+            "Hikma Pharmaceuticals USA Inc.",
+            "ENDO USA, Inc.",
+            "Mecaso Great Health Industry (Guangdong) Co.,Ltd.",
+            "American Regent, Inc.",
+            "NorthStar RxLLC",
+            "Lupin Pharmaceuticals,Inc.",
+            "Gland Pharma Limited",
+            "SOLA Pharmaceuticals",
+            "Lifestar Pharma LLC",
+            "Fresenius Kabi USA, LLC",
+            "Zydus Lifesciences Limited",
+            "Sagent Pharmaceuticals"
+          ],
+          "product_ndc": [
+            "70069-005",
+            "70069-172",
+            "70710-1663",
+            "70710-1664",
+            "70710-1665",
+            "55150-364",
+            "68001-542",
+            "69680-112",
+            "69680-113",
+            "69680-121",
+            "68001-640",
+            "71288-303",
+            "45802-491",
+            "0143-9619",
+            "0143-9621",
+            "0143-9620",
+            "71288-300",
+            "71288-301",
+            "71288-302",
+            "49884-270",
+            "84341-002",
+            "0517-0031",
+            "0517-0032",
+            "0517-0130",
+            "70069-171",
+            "72603-650",
+            "43386-237",
+            "68083-449",
+            "68083-561",
+            "68083-562",
+            "70512-840",
+            "70756-635",
+            "70756-636",
+            "63323-044",
+            "70771-1688",
+            "70771-1689",
+            "70771-1690",
+            "25021-502"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG",
+            "HUMAN OTC DRUG"
+          ],
+          "route": [
+            "INTRAMUSCULAR",
+            "SUBCUTANEOUS",
+            "NASAL",
+            "TOPICAL"
+          ],
+          "substance_name": [
+            "CYANOCOBALAMIN"
+          ],
+          "rxcui": [
+            "309594",
+            "861113",
+            "861115"
+          ],
+          "spl_id": [
+            "0e24643e-b0c4-42ab-a1c9-f7a170ee8d76",
+            "6ac6e28b-b969-4b66-bc1e-cca8a2cb66f3",
+            "a0566c8d-7cb0-4ee7-8599-f2e8dc8992c7",
+            "fab6a2d8-d9a0-2f8f-e053-6394a90a22bc",
+            "7c3b0e85-bd17-4998-aaf4-1a873a357ab4",
+            "2b45cb57-1459-d2e8-e063-6394a90a2475",
+            "8a611106-589f-4896-baa7-653137dc27ab",
+            "4cf650d9-6d6c-4112-88f2-cd2e94f1f416",
+            "18a5677c-6c35-4613-9064-21bf488cf57b",
+            "b2ee60e7-c10a-45e1-81e8-28d6838161eb",
+            "bd8722ab-7ac0-4e01-8244-36e8d83eca8d",
+            "18f444e6-65f5-5604-e063-6294a90ab5d8",
+            "28421ba1-7e37-429c-9c66-62cc36f5847c",
+            "9f0dee6d-ee88-43df-9e7b-a3f345734210",
+            "bdfaf6c3-67ca-4323-a93e-72eba47805d9",
+            "bb7b94e1-b5cd-486f-9e34-38fc9595547a",
+            "771cf601-8f92-4e4f-a29f-b18e71b1ba96",
+            "18e5b395-ba7a-d30f-e063-6394a90a5832",
+            "3042bb7f-f286-4fc4-8755-67adce1c71c0",
+            "65f0f72b-691f-4cbb-a5d7-7579a133f457",
+            "0a2dc386-15b3-45a3-91d7-80b9cf202c03",
+            "8940ec64-b0cd-4f10-bc19-251146c9e552",
+            "634b55ef-9667-46f7-9b3e-d41f4b7b819b",
+            "b1dd7657-05bd-4062-89f1-9e11f0042f3e"
+          ],
+          "spl_set_id": [
+            "41ac0dc1-0a71-4c69-8e25-ba838f5f16a3",
+            "e6712877-ace0-441c-99a9-adf567c0b9a2",
+            "db84d0ea-5c15-47f5-bbe2-8d455e75695e",
+            "cdd4fd12-e214-43a6-b560-d56fc0d87190",
+            "2117af8a-723f-4e2f-98a6-83ad2c423751",
+            "5c603ad0-9023-44cc-955c-3988d5dcf0d3",
+            "c6436212-9246-4e29-8540-9af992b667eb",
+            "971e5f30-55c2-4193-9dd8-b43a1862b92a",
+            "a66eb3c4-3e1d-4d49-b963-4fa2334cc9b6",
+            "9c37fd25-2143-410c-8d89-d39aa5c7b453",
+            "697e0e52-c01b-4b53-9994-f79c46eb6b4f",
+            "18f444e6-65f4-5604-e063-6294a90ab5d8",
+            "2fb653d6-e2b2-4969-831b-c0dc37b9c0cc",
+            "617e44f8-df80-4764-85b9-be0fb6da8db3",
+            "ce0183b3-4410-466a-b57d-cd360d461b7c",
+            "efb7dc02-f0c9-4537-9e23-b641c428068c",
+            "cd8d188a-fa5d-4580-bcb1-ac8617118cbb",
+            "e559c6c8-2973-77fb-e053-2995a90af43d",
+            "b1e35c97-2157-454e-967f-53a4300827de",
+            "ccf5b124-083d-4465-a666-c1bc6e84d630",
+            "8b1cdee5-3368-40e4-90bf-31a64df1f38a",
+            "ef300a08-8212-40a9-847a-1b62348896dd",
+            "acff4ff3-4435-4995-a117-dbfcdf72334a",
+            "7e10c47d-1036-47c1-a0ed-6929636366c2"
+          ],
+          "package_ndc": [
+            "70069-005-01",
+            "70069-005-10",
+            "70069-172-01",
+            "70069-172-10",
+            "70069-172-25",
+            "70710-1663-1",
+            "70710-1663-7",
+            "70710-1664-1",
+            "70710-1664-6",
+            "70710-1664-7",
+            "70710-1665-1",
+            "70710-1665-5",
+            "55150-364-01",
+            "55150-364-10",
+            "55150-364-25",
+            "68001-542-59",
+            "68001-542-60",
+            "69680-112-01",
+            "69680-112-25",
+            "69680-112-10",
+            "69680-113-10",
+            "69680-113-99",
+            "69680-121-05",
+            "69680-121-30",
+            "69680-121-10",
+            "68001-640-59",
+            "68001-640-60",
+            "71288-303-91",
+            "71288-303-92",
+            "45802-491-84",
+            "0143-9621-01",
+            "0143-9621-25",
+            "0143-9620-01",
+            "0143-9620-10",
+            "0143-9619-01",
+            "0143-9619-10",
+            "71288-300-01",
+            "71288-300-02",
+            "71288-301-10",
+            "71288-301-11",
+            "71288-302-30",
+            "49884-270-82",
+            "49884-270-52",
+            "84341-002-01",
+            "0517-0031-01",
+            "0517-0031-25",
+            "0517-0032-01",
+            "0517-0032-25",
+            "0517-0130-01",
+            "70069-171-05",
+            "70069-171-10",
+            "72603-650-01",
+            "72603-650-25",
+            "43386-237-70",
+            "43386-237-60",
+            "68083-449-25",
+            "68083-561-25",
+            "68083-562-01",
+            "70512-840-01",
+            "70512-840-25",
+            "70756-635-10",
+            "70756-635-25",
+            "70756-636-25",
+            "70756-636-10",
+            "71288-303-01",
+            "71288-303-02",
+            "63323-044-41",
+            "63323-044-44",
+            "70771-1688-1",
+            "70771-1688-7",
+            "70771-1689-1",
+            "70771-1689-6",
+            "70771-1689-7",
+            "70771-1690-1",
+            "70771-1690-5",
+            "63323-044-00",
+            "63323-044-01",
+            "25021-502-01"
+          ],
+          "nui": [
+            "M0022794",
+            "N0000175951"
+          ],
+          "pharm_class_cs": [
+            "Vitamin B 12 [CS]"
+          ],
+          "pharm_class_epc": [
+            "Vitamin B12 [EPC]"
+          ],
+          "unii": [
+            "P6YC3EG204"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "2",
+        "medicinalproduct": "VENOFER",
+        "drugdosagetext": "UNK",
+        "drugindication": "Anaemia",
+        "activesubstance": {
+          "activesubstancename": "IRON SUCROSE"
+        },
+        "openfda": {
+          "application_number": [
+            "NDA021135"
+          ],
+          "brand_name": [
+            "VENOFER"
+          ],
+          "generic_name": [
+            "IRON SUCROSE"
+          ],
+          "manufacturer_name": [
+            "Fresenius Medical Care Holdings, Inc.",
+            "American Regent, Inc."
+          ],
+          "product_ndc": [
+            "49230-530",
+            "49230-534",
+            "0517-2310",
+            "0517-2325",
+            "0517-2340"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "IRON SUCROSE"
+          ],
+          "rxcui": [
+            "1741267",
+            "1741268",
+            "1741270",
+            "1741271",
+            "1741261",
+            "1741263"
+          ],
+          "spl_id": [
+            "d169adb0-d1dc-4c19-99b4-f1dce90db380",
+            "1cb19ad9-7a23-43bd-ab28-955cd2fa3750",
+            "91f50fe2-b85d-460d-86a8-469cc16f6a99"
+          ],
+          "spl_set_id": [
+            "f1ab1a22-2b99-4d27-8b5a-9c3bcd5e3040",
+            "626dc9e5-c6b4-4f9c-9bf4-774fd3ae619a",
+            "b998ef36-81fa-40a1-9cd1-6d6156f91564"
+          ],
+          "package_ndc": [
+            "49230-530-01",
+            "49230-530-10",
+            "49230-530-25",
+            "49230-534-01",
+            "49230-534-10",
+            "49230-534-25",
+            "0517-2325-01",
+            "0517-2325-10",
+            "0517-2340-01",
+            "0517-2340-10",
+            "0517-2340-25",
+            "0517-2310-01",
+            "0517-2310-05",
+            "0517-2340-99"
+          ],
+          "nui": [
+            "M0011718",
+            "N0000177913"
+          ],
+          "pharm_class_cs": [
+            "Iron [CS]"
+          ],
+          "pharm_class_epc": [
+            "Parenteral Iron Replacement [EPC]"
+          ],
+          "unii": [
+            "FZ7NYF5N8L"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "2",
+        "medicinalproduct": "VENOFER",
+        "drugdosagetext": "UNK",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20220729",
+        "activesubstance": {
+          "activesubstancename": "IRON SUCROSE"
+        },
+        "openfda": {
+          "application_number": [
+            "NDA021135"
+          ],
+          "brand_name": [
+            "VENOFER"
+          ],
+          "generic_name": [
+            "IRON SUCROSE"
+          ],
+          "manufacturer_name": [
+            "Fresenius Medical Care Holdings, Inc.",
+            "American Regent, Inc."
+          ],
+          "product_ndc": [
+            "49230-530",
+            "49230-534",
+            "0517-2310",
+            "0517-2325",
+            "0517-2340"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "IRON SUCROSE"
+          ],
+          "rxcui": [
+            "1741267",
+            "1741268",
+            "1741270",
+            "1741271",
+            "1741261",
+            "1741263"
+          ],
+          "spl_id": [
+            "d169adb0-d1dc-4c19-99b4-f1dce90db380",
+            "1cb19ad9-7a23-43bd-ab28-955cd2fa3750",
+            "91f50fe2-b85d-460d-86a8-469cc16f6a99"
+          ],
+          "spl_set_id": [
+            "f1ab1a22-2b99-4d27-8b5a-9c3bcd5e3040",
+            "626dc9e5-c6b4-4f9c-9bf4-774fd3ae619a",
+            "b998ef36-81fa-40a1-9cd1-6d6156f91564"
+          ],
+          "package_ndc": [
+            "49230-530-01",
+            "49230-530-10",
+            "49230-530-25",
+            "49230-534-01",
+            "49230-534-10",
+            "49230-534-25",
+            "0517-2325-01",
+            "0517-2325-10",
+            "0517-2340-01",
+            "0517-2340-10",
+            "0517-2340-25",
+            "0517-2310-01",
+            "0517-2310-05",
+            "0517-2340-99"
+          ],
+          "nui": [
+            "M0011718",
+            "N0000177913"
+          ],
+          "pharm_class_cs": [
+            "Iron [CS]"
+          ],
+          "pharm_class_epc": [
+            "Parenteral Iron Replacement [EPC]"
+          ],
+          "unii": [
+            "FZ7NYF5N8L"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "2",
+        "medicinalproduct": "VENOFER",
+        "drugdosagetext": "UNK",
+        "drugstartdateformat": "102",
+        "drugstartdate": "20220805",
+        "activesubstance": {
+          "activesubstancename": "IRON SUCROSE"
+        },
+        "openfda": {
+          "application_number": [
+            "NDA021135"
+          ],
+          "brand_name": [
+            "VENOFER"
+          ],
+          "generic_name": [
+            "IRON SUCROSE"
+          ],
+          "manufacturer_name": [
+            "Fresenius Medical Care Holdings, Inc.",
+            "American Regent, Inc."
+          ],
+          "product_ndc": [
+            "49230-530",
+            "49230-534",
+            "0517-2310",
+            "0517-2325",
+            "0517-2340"
+          ],
+          "product_type": [
+            "HUMAN PRESCRIPTION DRUG"
+          ],
+          "route": [
+            "INTRAVENOUS"
+          ],
+          "substance_name": [
+            "IRON SUCROSE"
+          ],
+          "rxcui": [
+            "1741267",
+            "1741268",
+            "1741270",
+            "1741271",
+            "1741261",
+            "1741263"
+          ],
+          "spl_id": [
+            "d169adb0-d1dc-4c19-99b4-f1dce90db380",
+            "1cb19ad9-7a23-43bd-ab28-955cd2fa3750",
+            "91f50fe2-b85d-460d-86a8-469cc16f6a99"
+          ],
+          "spl_set_id": [
+            "f1ab1a22-2b99-4d27-8b5a-9c3bcd5e3040",
+            "626dc9e5-c6b4-4f9c-9bf4-774fd3ae619a",
+            "b998ef36-81fa-40a1-9cd1-6d6156f91564"
+          ],
+          "package_ndc": [
+            "49230-530-01",
+            "49230-530-10",
+            "49230-530-25",
+            "49230-534-01",
+            "49230-534-10",
+            "49230-534-25",
+            "0517-2325-01",
+            "0517-2325-10",
+            "0517-2340-01",
+            "0517-2340-10",
+            "0517-2340-25",
+            "0517-2310-01",
+            "0517-2310-05",
+            "0517-2340-99"
+          ],
+          "nui": [
+            "M0011718",
+            "N0000177913"
+          ],
+          "pharm_class_cs": [
+            "Iron [CS]"
+          ],
+          "pharm_class_epc": [
+            "Parenteral Iron Replacement [EPC]"
+          ],
+          "unii": [
+            "FZ7NYF5N8L"
+          ]
+        }
+      },
+      {
+        "drugcharacterization": "2",
+        "medicinalproduct": "VIT D [VITAMIN D NOS]",
+        "drugseparatedosagenumb": "1",
+        "drugintervaldosageunitnumb": "1",
+        "drugintervaldosagedefinition": "803",
+        "drugdosagetext": "10000, WEEKLY",
+        "drugindication": "Vitamin D deficiency",
+        "drugstartdateformat": "602",
+        "drugstartdate": "2019"
+      }
+    ],
+    "summary": {
+      "narrativeincludeclinical": "CASE EVENT DATE: 20201104"
+    }
+  }
+}
