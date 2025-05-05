@@ -2,6 +2,9 @@
 data/raw/
 data/processed/
 
+# Ignore irrelevant files
+scratch/
+
 # Ignore SQLite and other DBs
 *.db
 
