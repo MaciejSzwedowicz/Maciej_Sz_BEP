@@ -8,8 +8,7 @@ from pymongo import MongoClient, errors
 
 # Add src to path if not running with -m
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
-from parser.iterate_reports import iterate_reports_ijson
-
+from src.parser.iterate_reports import iterate_reports_ijson
 
 def insert_reports_one_by_one(db_name, collection_name, json_path, mongo_uri="mongodb://localhost:27017"):
     client = MongoClient(mongo_uri)
@@ -68,3 +67,19 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
     insert_reports_one_by_one(args.db, args.collection, args.json_path, args.mongo_uri)
 
+"""
+Run this script from the root of the project using:
+
+```bash
+python -m src.db_mongo.insert_pipline \
+  --db openfda \
+  --collection full_reports \
+  --json_path data/raw/source_data
+
+You can customize the DB name, collection, and path using the optional flags.
+
+One-liner to run the script from the command line:
+```bash
+python -m src.db_mongo.insert_pipline --db openfda --collection full_reports --json_path data/raw/source_data
+
+"""
