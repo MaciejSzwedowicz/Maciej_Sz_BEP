@@ -2,6 +2,7 @@ import argparse
 import logging
 import os
 import sys
+import json
 from time import time
 from pymongo import MongoClient, errors
 
@@ -23,6 +24,7 @@ def insert_reports_one_by_one(db_name, collection_name, json_path, mongo_uri="mo
     gen = iterate_reports_ijson(json_path)
     total_inserted = 0
     duplicate_count = 0
+    oversized_reports = []
     start_time = time()
 
     for i, report in enumerate(gen, 1):
@@ -36,11 +38,23 @@ def insert_reports_one_by_one(db_name, collection_name, json_path, mongo_uri="mo
             if duplicate_count % 50 == 0:
                 logging.warning(f"Duplicate report skipped (example): {report.get('safetyreportid')}")
         except Exception as e:
-            logging.error(f"Error inserting report {i}: {e}")
+            if "BSON document too large" in str(e):
+                report_id = report.get("safetyreportid", f"(unknown_id at line {i})")
+                oversized_reports.append(report_id)
+                logging.warning(f"Skipped oversized report {report_id} (too large for MongoDB).")
+            else:
+                logging.error(f"Error inserting report {i}: {e}")
 
     elapsed = time() - start_time
     logging.info(f"Done. Inserted {total_inserted} documents in {elapsed:.2f} seconds.")
     logging.info(f"Skipped {duplicate_count} duplicates.")
+
+    if oversized_reports:
+        os.makedirs("reports/evaluation_results", exist_ok=True)
+        out_path = "reports/evaluation_results/oversized_reports_skipped.json"
+        with open(out_path, "w") as f:
+            json.dump(oversized_reports, f, indent=2)
+        logging.info(f"Saved {len(oversized_reports)} oversized reports to {out_path}")
 
 
 if __name__ == "__main__":
@@ -53,3 +67,4 @@ if __name__ == "__main__":
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
     insert_reports_one_by_one(args.db, args.collection, args.json_path, args.mongo_uri)
+
