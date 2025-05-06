@@ -7,6 +7,8 @@ scratch/
 
 # Ignore SQLite and other DBs
 *.db
+*.sqlite
+*.log
 
 # Ignore notebook checkpoints
 .ipynb_checkpoints/
@@ -21,6 +23,16 @@ __pycache__/
 .venv/
 env/
 
+# VSCode config
+.vscode/
+*.code-workspace
+
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Ignore Python packaging artifacts
+*.egg-info/
+maciej_bep.egg-info/
+dist/
+build/
