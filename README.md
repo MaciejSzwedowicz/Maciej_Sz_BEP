@@ -27,3 +27,26 @@ The goal is to evaluate the benefits and trade-offs of each approach in terms of
 ├── tests/ # Unit and integration tests
 ├── sql/ # SQL schema and example queries
 ├── mongo/ # Notes or templates for MongoDB design
+
+
+## 🚀 Running the MongoDB Insert Script
+
+The script to load the full OpenFDA dataset into MongoDB is located at:
+src/db_mongo/insert_pipline.py
+
+### ✅ Usage (from project root)
+
+```bash
+python -m src.db_mongo.insert_pipline
+
+🛠️ Optional CLI Parameters
+You can customize it using the following flags:
+
+bash
+Kopiuj
+Edytuj
+python -m src.db_mongo.insert_pipline \
+  --db openfda_alt \
+  --collection my_collection \
+  --json_path data/sample/OpenFDA_sample_combined.json \
+  --mongo_uri mongodb://localhost:27017
