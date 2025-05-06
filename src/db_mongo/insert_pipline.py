@@ -2,9 +2,7 @@ from pymongo import MongoClient, errors
 from src.parser.iterate_reports import iterate_reports_ijson
 import logging
 from time import time
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
+
 
 
 # === CONFIGURATION ===
