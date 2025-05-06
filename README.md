@@ -57,3 +57,10 @@ python -m src.db_mongo.insert_pipline \
   --collection my_collection \
   --json_path data/sample/OpenFDA_sample_combined.json \
   --mongo_uri mongodb://localhost:27017
+
+## Oversized Document Skipped
+
+- `safetyreportid`: 20937
+- Size: ~25.2MB
+- MongoDB BSON limit: 16MB
+- Skipped during insert, ID saved to: `reports/evaluation_results/oversized_reports_skipped.json`
