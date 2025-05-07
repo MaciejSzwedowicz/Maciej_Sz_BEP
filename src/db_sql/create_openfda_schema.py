@@ -123,7 +123,7 @@ CREATE TABLE report_optional (
 """)
 
 if __name__ == "__main__":
-    db_path = "openfda_base.db"  # Change as needed
+    db_path = "sql/openfda_base.db"  # Change as needed
     conn = sqlite3.connect(db_path)
     create_tables(conn)
     print("✅ Tables created successfully in", db_path)
