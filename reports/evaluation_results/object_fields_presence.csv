@@ -1,0 +1,11 @@
+field_path,presence_count,presence_percent
+patient,36000,100.0
+patient.drug,36000,100.0
+patient.drug.activesubstance,36000,100.0
+patient.drug.openfda,35671,99.08611111111111
+patient.reaction,36000,100.0
+patient.summary,16948,47.07777777777778
+primarysource,36000,100.0
+receiver,36000,100.0
+reportduplicate,11562,32.11666666666667
+sender,36000,100.0
