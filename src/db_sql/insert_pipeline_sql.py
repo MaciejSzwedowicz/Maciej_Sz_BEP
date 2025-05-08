@@ -138,15 +138,17 @@ def insert_drugs(conn, report):
             optional_data["drug_id"] = drug_id
             insert_with_fields(conn, "drug_optional", ["drug_id"] + optional_fields, optional_data)
 
-            actives = drug.get("activesubstance", [])
-            if isinstance(actives, list):
-                for active in actives:
-                    if isinstance(active, dict):
-                        data = {
-                            "drug_id": drug_id,
-                            "activesubstancename": active.get("activesubstancename")
-                        }
-                        insert_with_fields(conn, "drug_activesubstance", ["drug_id", "activesubstancename"], data)
+            actives = drug.get("activesubstance")
+
+            # if it's a dict, insert one row
+            if isinstance(actives, dict):
+                activesubstancename = actives.get("activesubstancename")
+                if activesubstancename:
+                    insert_with_fields(conn, "drug_activesubstance", ["drug_id", "activesubstancename"], {
+                        "drug_id": drug_id,
+                        "activesubstancename": activesubstancename
+                    })
+
 
 
 def main(db_path, json_path):
