@@ -94,11 +94,18 @@ def insert_report_related(conn, report):
     }
     insert_with_fields(conn, "report", list(report_data.keys()), report_data)
 
-    if isinstance(primarysource, dict):
-        for ref in primarysource.get("literaturereference", []):
+    literature = primarysource.get("literaturereference")
+    if isinstance(literature, str):
+        insert_with_fields(conn, "primarysource_literature_reference",
+                       ["safetyreportid", "literature_reference"],
+                       {"safetyreportid": rid, "literature_reference": literature})
+    elif isinstance(literature, list):
+        for ref in literature:
             insert_with_fields(conn, "primarysource_literature_reference",
-                               ["safetyreportid", "literature_reference"],
-                               {"safetyreportid": rid, "literature_reference": ref})
+                           ["safetyreportid", "literature_reference"],
+                           {"safetyreportid": rid, "literature_reference": ref})
+
+
 
 
 def insert_patient_optional(conn, report):
@@ -115,8 +122,14 @@ def insert_patient_optional(conn, report):
     insert_with_fields(conn, "patient_optional", list(data.keys()), data)
 
 def insert_summary(conn, report):
-    summary = safe_get(report, "summary", {})
-    narrative = summary.get("narrativeincludeclinical") if isinstance(summary, dict) else None
+    patient = report.get("patient", {})
+    summary = patient.get("summary") if isinstance(patient, dict) else None
+
+    if not isinstance(summary, dict):
+        # logging.warning(f"⚠️ Skipping summary for report {report.get('safetyreportid')} — missing or malformed.")
+        return
+
+    narrative = summary.get("narrativeincludeclinical", "")
     extracted = extract_case_event_date(narrative)
     data = {
         "safetyreportid": safe_int(report.get("safetyreportid")),
@@ -124,6 +137,8 @@ def insert_summary(conn, report):
         "case_event_date_extracted": extracted
     }
     insert_with_fields(conn, "summary", list(data.keys()), data)
+
+
 
 def insert_reactions(conn, report):
     patient = safe_get(report, "patient", {})
