@@ -67,7 +67,6 @@ CREATE TABLE patient_optional (
     patientonsetageunit INTEGER,
     patientsex INTEGER,
     patientweight REAL,
-    narrativeincludeclinical TEXT,
     FOREIGN KEY (safetyreportid) REFERENCES report(safetyreportid)
 );
 
