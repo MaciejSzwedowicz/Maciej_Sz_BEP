@@ -156,13 +156,13 @@ def insert_reports(db, collection_name, reports, limit=None):
         try:
             collection.replace_one({"safetyreportid": rid}, report, upsert=True)
             inserted += 1
-            if inserted % 100 == 0:
+            if inserted % 1000 == 0:
                 logging.info(f"Inserted {inserted} reports so far...")
         except errors.DocumentTooLarge:
             logging.warning(f"⚠️ Skipped oversized report {rid}")
             os.makedirs("reports/evaluation_results", exist_ok=True)
             with open("reports/evaluation_results/oversized_reports_skipped.json", "a") as f:
-                f.write(json.dumps({{"safetyreportid": rid}}) + "\n")
+                f.write(json.dumps({"safetyreportid": rid}) + "\n")
             continue
         except errors.PyMongoError as e:
             logging.error(f"❌ Failed to insert report {rid}: {{e}}")
