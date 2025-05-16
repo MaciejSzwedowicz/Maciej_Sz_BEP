@@ -273,6 +273,13 @@ def main(db_path, json_path, limit):
             if inserted % 100 == 0:
                 logging.info(f"Inserted data from {inserted} reports...")
         except Exception as e:
+            print("⚠️  Report caused error:", report.get("safetyreportid"))
+            print("📄 Type of report['patient']:", type(report.get("patient")))
+            print("📄 Type of report['summary']:", type(report.get("summary")))
+            print("📄 Type of report['primarysource']:", type(report.get("primarysource")))
+            print("📄 Type of report['sender']:", type(report.get("sender")))
+            print("📄 Type of report['receiver']:", type(report.get("receiver")))
+            print("❌ Error detail:", e)
             logging.error(f"❌ Error on report {report.get('safetyreportid')}: {e}")
 
     conn.commit()

@@ -65,7 +65,7 @@ CREATE TABLE patient_age (
     FOREIGN KEY (safetyreportid) REFERENCES report(safetyreportid)
 );
 
-CREATE TABLE patient_agegroup (
+CREATE TABLE patient_age_group (
     safetyreportid INTEGER PRIMARY KEY,
     patientagegroup INTEGER,
     FOREIGN KEY (safetyreportid) REFERENCES report(safetyreportid)
@@ -161,7 +161,7 @@ CREATE TABLE primarysource_literature_reference (
 """)
 
 if __name__ == "__main__":
-    db_path = "sql/openfda_base_redesigned.db"
+    db_path = "sql/openfda_base_redesigned_gpt_fullrun.db"
     conn = sqlite3.connect(db_path)
     create_tables(conn)
     print("✅ Redesigned tables created successfully in", db_path)

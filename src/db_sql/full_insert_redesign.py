@@ -278,7 +278,7 @@ def main(db_path, json_path, limit):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--db", default="sql/openfda_base_redesigned.db")
+    parser.add_argument("--db", default="sql/openfda_base_redesigned_demo.db")
     parser.add_argument("--json_path", default="data/raw/source_data")
     parser.add_argument("--limit", type=int, default=100, help="Max number of reports to insert")
     args = parser.parse_args()
