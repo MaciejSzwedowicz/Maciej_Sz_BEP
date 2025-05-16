@@ -31,6 +31,7 @@ CREATE TABLE report (
     primarysource_qualification INTEGER,
     primarysource_reportercountry TEXT,
     occurcountry TEXT,
+    patientsex INTEGER,
     duplicate INTEGER
 );
 
@@ -70,11 +71,6 @@ CREATE TABLE patient_agegroup (
     FOREIGN KEY (safetyreportid) REFERENCES report(safetyreportid)
 );
 
-CREATE TABLE patient_sex (
-    safetyreportid INTEGER PRIMARY KEY,
-    patientsex INTEGER,
-    FOREIGN KEY (safetyreportid) REFERENCES report(safetyreportid)
-);
 
 CREATE TABLE patient_weight (
     safetyreportid INTEGER PRIMARY KEY,
