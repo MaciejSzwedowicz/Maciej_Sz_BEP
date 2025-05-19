@@ -239,6 +239,7 @@ class DrugRegistry:
                     insert_with_fields(conn, "drug_activesubstance", ["drug_id", "activesubstancename"], {
                         "drug_id": drug_id, "activesubstancename": name})
 
+        # Insert openfda metadata
         openfda = drug.get("openfda", {})
         if isinstance(openfda, dict):
             openfda_fields = [
@@ -251,18 +252,13 @@ class DrugRegistry:
                 f: ", ".join(openfda.get(f, [])) if isinstance(openfda.get(f), list) else openfda.get(f)
                 for f in openfda_fields
             }
-            if any(v not in [None, "", "null"] for v in field_data.values()):
-                field_data["drug_id"] = drug_id
-                insert_with_fields(conn, "drug_openfda_variant", list(field_data.keys()), field_data)
-
-
-        variant_index = None
+            variant_index = None
         if isinstance(openfda, dict):
             variant_key = self._serialize_openfda(openfda)
             if variant_key not in self.openfda_variants[drug_id]:
                 self.openfda_variants[drug_id].add(variant_key)
-                variant_index = self.variant_indices[drug_id]
                 self.variant_indices[drug_id] += 1
+                variant_index = self.variant_indices[drug_id]
                 field_data = {
                     f: ", ".join(openfda.get(f, [])) if isinstance(openfda.get(f), list) else openfda.get(f)
                     for f in [
@@ -356,9 +352,9 @@ def main(db_path, json_path, limit):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--db", default="sql/openfda_final.db")
+    parser.add_argument("--db", default="sql/openfda_final_v2.db")
     parser.add_argument("--json_path", default="data/raw/source_data")
-    parser.add_argument("--limit", type=int, default= None, help="Max number of reports to insert")
+    parser.add_argument("--limit", type=int, default= 1000, help="Max number of reports to insert")
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
     main(args.db, args.json_path, args.limit)

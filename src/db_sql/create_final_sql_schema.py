@@ -170,7 +170,7 @@ CREATE TABLE drug_openfda_link (
 """)
         
 if __name__ == "__main__":
-    db_path = "sql/openfda_final.db"
+    db_path = "sql/openfda_final_v2.db"
     conn = sqlite3.connect(db_path)
     create_tables(conn)
     print("✅ Redesigned tables created successfully in", db_path)
