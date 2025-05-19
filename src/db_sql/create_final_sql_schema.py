@@ -133,9 +133,8 @@ CREATE TABLE primarysource_literature_reference (
     FOREIGN KEY (safetyreportid) REFERENCES report(safetyreportid)
 );
 
-CREATE TABLE drug_openfda_variant (
+CREATE TABLE drug_openfda (
     drug_id INTEGER,
-    variant_index INTEGER,
     application_number TEXT,
     brand_name TEXT,
     generic_name TEXT,
@@ -154,23 +153,15 @@ CREATE TABLE drug_openfda_variant (
     spl_set_id TEXT,
     substance_name TEXT,
     unii TEXT,
-    PRIMARY KEY (drug_id, variant_index),
+    PRIMARY KEY (drug_id),
     FOREIGN KEY (drug_id) REFERENCES drug_catalog(drug_id)
 );
 
-CREATE TABLE drug_openfda_link (
-    safetyreportid INTEGER,
-    drug_instance_index INTEGER,
-    drug_id INTEGER,
-    variant_index INTEGER,
-    PRIMARY KEY (safetyreportid, drug_instance_index),
-    FOREIGN KEY (drug_id) REFERENCES drug_catalog(drug_id)
-);
         
 """)
         
 if __name__ == "__main__":
-    db_path = "sql/openfda_final_v2.db"
+    db_path = "sql/openfda_final_v3.db"
     conn = sqlite3.connect(db_path)
     create_tables(conn)
     print("✅ Redesigned tables created successfully in", db_path)

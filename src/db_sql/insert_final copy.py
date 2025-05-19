@@ -241,24 +241,18 @@ class DrugRegistry:
 
         # Insert openfda metadata
         openfda = drug.get("openfda", {})
-        if isinstance(openfda, dict):
-            openfda_fields = [
-                "application_number", "brand_name", "generic_name", "manufacturer_name",
-                "nui", "package_ndc", "pharm_class_cs", "pharm_class_epc", "pharm_class_moa",
-                "pharm_class_pe", "product_ndc", "product_type", "route", "rxcui",
-                "spl_id", "spl_set_id", "substance_name", "unii"
-            ]
-            field_data = {
-                f: ", ".join(openfda.get(f, [])) if isinstance(openfda.get(f), list) else openfda.get(f)
-                for f in openfda_fields
-            }
-            variant_index = None
-        if isinstance(openfda, dict):
+        variant_index = None
+
+        if isinstance(openfda, dict) and any(
+            v not in [None, "", [], {}, "null"] for v in openfda.values()
+        ):
             variant_key = self._serialize_openfda(openfda)
+
             if variant_key not in self.openfda_variants[drug_id]:
                 self.openfda_variants[drug_id].add(variant_key)
                 self.variant_indices[drug_id] += 1
                 variant_index = self.variant_indices[drug_id]
+
                 field_data = {
                     f: ", ".join(openfda.get(f, [])) if isinstance(openfda.get(f), list) else openfda.get(f)
                     for f in [
@@ -270,22 +264,23 @@ class DrugRegistry:
                 }
                 field_data["drug_id"] = drug_id
                 field_data["variant_index"] = variant_index
-                insert_with_fields(conn, "drug_openfda_variant", list(field_data.keys()), field_data)
-            else:
-                for idx, key in enumerate(self.openfda_variants[drug_id]):
-                    if key == variant_key:
-                        variant_index = idx
-                        break
-        if safetyreportid is not None and drug_instance_index is not None and variant_index is not None:
-            insert_with_fields(conn, "drug_openfda_link",
-                               ["safetyreportid", "drug_instance_index", "drug_id", "variant_index"],
-                               {
-                                   "safetyreportid": safetyreportid,
-                                   "drug_instance_index": drug_instance_index,
-                                   "drug_id": drug_id,
-                                   "variant_index": variant_index
-                               })
 
+                insert_with_fields(conn, "drug_openfda_variant", list(field_data.keys()), field_data)
+
+            else:
+                # Assign correct existing index (convert set to list to allow index lookup)
+                variant_index = list(self.openfda_variants[drug_id]).index(variant_key) + 1
+
+        # Always link the drug instance, even if variant_index is None
+        if safetyreportid is not None and drug_instance_index is not None:
+            insert_with_fields(conn, "drug_openfda_link",
+                ["safetyreportid", "drug_instance_index", "drug_id", "variant_index"],
+                {
+                    "safetyreportid": safetyreportid,
+                    "drug_instance_index": drug_instance_index,
+                    "drug_id": drug_id,
+                    "variant_index": variant_index
+                })
         return drug_id
 
 def insert_drugs(conn, report, registry):
@@ -328,6 +323,9 @@ def main(db_path, json_path, limit):
     registry = DrugRegistry()
     inserted = 0
     for report in iterate_reports_ijson(json_path):
+        if safe_int(report.get("safetyreportid")) == 11090837:
+            print(f"skipped report {report.get('safetyreportid')}")
+            continue
         try:
             insert_report_related(conn, report)
             insert_patient_age(conn, report)
@@ -342,7 +340,7 @@ def main(db_path, json_path, limit):
             inserted += 1
             if limit and inserted >= limit:
                 break
-            if inserted % 100 == 0:
+            if inserted % 1000 == 0:
                 logging.info(f"Inserted {inserted} reports...")
         except Exception as e:
             logging.error(f"❌ Error on report {report.get('safetyreportid')}: {e}")
@@ -354,7 +352,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--db", default="sql/openfda_final_v2.db")
     parser.add_argument("--json_path", default="data/raw/source_data")
-    parser.add_argument("--limit", type=int, default= 1000, help="Max number of reports to insert")
+    parser.add_argument("--limit", type=int, default= None, help="Max number of reports to insert")
     args = parser.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
     main(args.db, args.json_path, args.limit)
+
+
