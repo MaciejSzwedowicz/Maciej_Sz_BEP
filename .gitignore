@@ -8,6 +8,8 @@ scratch/
 
 notebooks/SQLite_redesigned_verification
 sql/scratch
+repo_structure.py
+
 
 # Ignore SQLite and other DBs
 *.db
