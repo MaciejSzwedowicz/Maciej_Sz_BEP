@@ -1,0 +1,51 @@
+,table,field,suggested_type,conversion_action,valid_pct,invalid_count,notes
+3,drug,drugenddate,date,⚠️ Consider normalization,0.828,3989,Partial/incomplete dates present
+2,drug,drugstartdate,date,⚠️ Consider normalization,0.747,13612,Partial/incomplete dates present
+0,drug,drugcharacterization,int,✅ Convert directly,1,0,Fully valid
+1,drug,drugauthorizationnumb,int,✅ Convert directly,1,1,Includes float-like strings or formats
+4,drug,drugadministrationroute,int,✅ Convert directly,1,0,Fully valid
+5,drug_openfda,package_ndc,list,✅ Convert directly,1,0,Fully valid
+6,drug_openfda,product_ndc,list,✅ Convert directly,1,0,Fully valid
+7,drug_openfda,rxcui,list,✅ Convert directly,1,0,Fully valid
+8,drug_optional,actiondrug,int,✅ Convert directly,1,0,Fully valid
+9,drug_optional,drugadditional,int,✅ Convert directly,1,0,Fully valid
+10,drug_optional,drugintervaldosagedefinition,int,✅ Convert directly,1,0,Fully valid
+11,drug_optional,drugcumulativedosagenumb,real,✅ Convert directly,1,0,Fully valid
+12,drug_optional,drugcumulativedosageunit,int,✅ Convert directly,1,0,Fully valid
+13,drug_optional,drugenddateformat,int,✅ Convert directly,1,0,Fully valid
+14,drug_optional,drugintervaldosageunitnumb,real,✅ Convert directly,1,0,Fully valid
+15,drug_optional,drugrecurreadministration,int,✅ Convert directly,1,0,Fully valid
+16,drug_optional,drugseparatedosagenumb,real,✅ Convert directly,1,0,Fully valid
+17,drug_optional,drugstartdateformat,int,✅ Convert directly,1,0,Fully valid
+18,drug_optional,drugstructuredosagenumb,real,✅ Convert directly,1,0,Fully valid
+19,drug_optional,drugstructuredosageunit,int,✅ Convert directly,1,0,Fully valid
+20,drug_optional,drugtreatmentduration,real,✅ Convert directly,1,0,Fully valid
+21,drug_optional,drugtreatmentdurationunit,int,✅ Convert directly,1,0,Fully valid
+22,patient_optional,patientagegroup,int,✅ Convert directly,1,0,Fully valid
+23,patient_optional,patientonsetage,int,✅ Convert directly,1,0,Fully valid
+24,patient_optional,patientonsetageunit,int,✅ Convert directly,1,0,Fully valid
+25,patient_optional,patientsex,int,✅ Convert directly,1,0,Fully valid
+26,patient_optional,patientweight,real,✅ Convert directly,1,0,Fully valid
+27,reaction,reactionmeddraversionpt,real,✅ Convert directly,1,0,Fully valid
+28,reaction,reactionoutcome,int,✅ Convert directly,1,0,Fully valid
+29,report,safetyreportversion,int,✅ Convert directly,1,0,Fully valid
+30,report,receivedateformat,int,✅ Convert directly,1,0,Fully valid
+31,report,receivedate,date,✅ Convert directly,1,0,Fully valid
+32,report,receiptdateformat,int,✅ Convert directly,1,0,Fully valid
+33,report,receiptdate,date,✅ Convert directly,1,0,Fully valid
+34,report,transmissiondateformat,int,✅ Convert directly,1,0,Fully valid
+35,report,transmissiondate,date,✅ Convert directly,1,0,Fully valid
+36,report,reporttype,int,✅ Convert directly,1,0,Fully valid
+37,report,fulfillexpeditecriteria,int,✅ Convert directly,1,0,Fully valid
+38,report,serious,int,✅ Convert directly,1,0,Fully valid
+39,report,seriousnessdeath,int,✅ Convert directly,1,0,Fully valid
+40,report,seriousnesslifethreatening,int,✅ Convert directly,1,0,Fully valid
+41,report,seriousnesshospitalization,int,✅ Convert directly,1,0,Fully valid
+42,report,seriousnessdisabling,int,✅ Convert directly,1,0,Fully valid
+43,report,seriousnesscongenitalanomali,int,✅ Convert directly,1,0,Fully valid
+44,report,seriousnessother,int,✅ Convert directly,1,0,Fully valid
+45,report,sender_sendertype,int,✅ Convert directly,1,0,Fully valid
+46,report,receiver_receivertype,int,✅ Convert directly,1,0,Fully valid
+47,report,primarysource_qualification,int,✅ Convert directly,1,0,Fully valid
+48,report,duplicate,int,✅ Convert directly,1,0,Fully valid
+49,summary,narrativeincludeclinical,date,❌ Keep as TEXT,0,16948,Partial/incomplete dates present
