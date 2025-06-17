@@ -53,10 +53,7 @@ def insert_with_fields(conn, table, fields, values):
     columns = ", ".join(fields)
     sql = f"INSERT OR IGNORE INTO {table} ({columns}) VALUES ({placeholders})"
     cursor.execute(sql, values)
-    # if cursor.rowcount == 0:
-    #     continue
-        # logging.warning(f"⚠️ Ignored insert into {table}, likely due to duplicate or missing key. Data: {values}")
-        
+
 
 
 
@@ -153,7 +150,7 @@ def insert_summary(conn, report):
     summary = patient.get("summary") if isinstance(patient, dict) else None
 
     if not isinstance(summary, dict):
-        # logging.warning(f"⚠️ Skipping summary for report {report.get('safetyreportid')} — missing or malformed.")
+        # logging.warning(f"Skipping summary for report {report.get('safetyreportid')} — missing or malformed.")
         return
 
     narrative = summary.get("narrativeincludeclinical", "")
@@ -297,14 +294,14 @@ def insert_drugs(conn, report, registry):
     patient = safe_get(report, "patient", {})
     rid = safe_int(report.get("safetyreportid"))
     for i, drug in enumerate(patient.get("drug", [])):
-        # logging.debug(f"🧪 Checking drug [{i}] in report {rid}: {drug.get('medicinalproduct')}")
+        # logging.debug(f"Checking drug [{i}] in report {rid}: {drug.get('medicinalproduct')}")
         if not isinstance(drug, dict): continue
         drug_id = registry.get_or_create(conn, drug)
         if drug_id is None:
-            logging.warning(f"⚠️ Skipping drug [{i}] in report {rid} — no drug_id assigned")
+            logging.warning(f"Skipping drug [{i}] in report {rid} — no drug_id assigned")
             continue
         else:
-            # logging.debug(f"✅ Assigned drug_id={{drug_id}} for drug [{i}] in report {rid}")
+            # logging.debug(f"Assigned drug_id={{drug_id}} for drug [{i}] in report {rid}")
             if drug_id is None:
                 continue  # Skip invalid drugs
             base = {
@@ -340,7 +337,7 @@ def main(db_path, json_path, limit):
     conn = sqlite3.connect(db_path)
     conn.execute("PRAGMA synchronous = OFF")
     conn.execute("PRAGMA journal_mode = MEMORY")  
-    print(f"🔗 Connected to DB at: {db_path}")
+    print(f"Connected to DB at: {db_path}")
     registry = DrugRegistry()
     registry.hydrate_existing(conn)
     inserted = 0
@@ -370,10 +367,10 @@ def main(db_path, json_path, limit):
                 if inserted % 1000 == 0:
                     logging.info(f"Inserted {inserted} reports...")
         except Exception as e:
-            logging.error(f"❌ Error on report {report.get('safetyreportid')}: {e}")
+            logging.error(f"Error on report {report.get('safetyreportid')}: {e}")
     conn.commit()
     conn.close()
-    logging.info(f"✅ Finished. Inserted {inserted} reports.")
+    logging.info(f"Finished. Inserted {inserted} reports.")
 
 
 
