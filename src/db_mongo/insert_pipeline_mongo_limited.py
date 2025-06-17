@@ -107,7 +107,7 @@ def transform_report(report):
         extracted = extract_case_event_date(narrative)
         if extracted:
             summary["case_event_date_extracted"] = extracted
-            logging.debug(f"✅ Extracted case_event_date: {extracted}")
+            logging.debug(f"Extracted case_event_date: {extracted}")
 
     # -------- patient.drug (list of dicts) --------
     for drug in report.get("patient", {}).get("drug", []):
@@ -159,15 +159,15 @@ def insert_reports(db, collection_name, reports, limit=None):
             if inserted % 1000 == 0:
                 logging.info(f"Inserted {inserted} reports so far...")
         except errors.DocumentTooLarge:
-            logging.warning(f"⚠️ Skipped oversized report {rid}")
+            logging.warning(f"Skipped oversized report {rid}")
             os.makedirs("reports/evaluation_results", exist_ok=True)
             with open("reports/evaluation_results/oversized_reports_skipped.json", "a") as f:
                 f.write(json.dumps({"safetyreportid": rid}) + "\n")
             continue
         except errors.PyMongoError as e:
-            logging.error(f"❌ Failed to insert report {rid}: {{e}}")
+            logging.error(f"Failed to insert report {rid}: {{e}}")
 
-    logging.info(f"✅ Inserted or updated {{inserted}} reports.")
+    logging.info(f"Inserted or updated {{inserted}} reports.")
 
 def main(uri, db_name, collection_name, json_path, limit):
     client = MongoClient(uri)
