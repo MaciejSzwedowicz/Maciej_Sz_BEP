@@ -1,5 +1,7 @@
 # Ignore data
-data/raw/
+data/raw/source_data/drug-event-0001-of-0030.json
+data/raw/source_data/drug-event-0002-of-0030.json
+data/raw/source_data/drug-event-0003-of-0030.json
 data/processed/
 data/sample
 
