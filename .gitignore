@@ -1,9 +1,12 @@
-# Ignore raw and processed data
+# Ignore data
 data/raw/
 data/processed/
+data/sample
 
 # Ignore irrelevant files
 scratch/
+
+notebooks/SQLite_redesigned_verification
 
 # Ignore SQLite and other DBs
 *.db
